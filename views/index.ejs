@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Vangst</title>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'/>
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css'/>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <div class="mainlogo"></div>
+
+  <body>
+
+    <div class="slogan">In an ongoing effort to improve the quality of our events and better serve you,
+      Vangst requests your valuable feedback.</div>
+      <form action="/index" method="post">
+
+        <div class="companyName">
+          <p class="compstyle">Company Name</p>
+          <input class="textbox" type="text" name="company" autofocus="" placeholder="Company Name">
+        </div>
+        <table class="form">
+          <tr>
+            <th>Overall, this event met my expectations</th>
+            <th class="help">
+              <div class="yay">Disagree</div>
+              <input type="radio" name="q1" value="1">
+              <input type="radio" name="q1" value="2">
+              <input type="radio" name="q1" value="3" checked="">
+              <input type="radio" name="q1" value="4">
+              <input type="radio" name="q1" value="5">
+              <div class="yay">Agree</div>
+
+
+            </th>
+          </tr>
+          <tr>
+            <th>The amount of attendees was ideal</th>
+            <th class="help">
+              <div class="yay">Disagree</div>
+              <input type="radio" name="q2" value="1">
+              <input type="radio" name="q2"  value="2">
+              <input type="radio" name="q2"  value="3" checked="">
+              <input type="radio" name="q2"  value="4">
+              <input type="radio" name="q2"  value="5">
+              <div class="yay">Agree</div>
+
+            </th>
+          </tr>
+          <tr>
+            <th>The event was well organized</th>
+            <th class="help">
+              <div class="yay">Disagree</div>
+              <input type="radio" name="q3" value="1">
+              <input type="radio" name="q3" value="2">
+              <input type="radio" name="q3" value="3" checked="">
+              <input type="radio" name="q3" value="4">
+              <input type="radio" name="q3" value="5">
+              <div class="yay">Agree</div>
+
+            </th>
+          </tr>
+          <tr>
+            <th>Would you be interested in attening again?</th>
+            <th class="help">
+              <div class="yay">Disagree</div>
+              <input type="radio" name="q4" value="1">
+              <input type="radio" name="q4" value="2">
+              <input type="radio" name="q4" value="3" checked="">
+              <input type="radio" name="q4" value="4">
+              <input type="radio" name="q4" value="5">
+              <div class="yay">Agree</div>
+
+            </th>
+          </tr>
+          <tr>
+            <th>Would you recommend this to friends and family?</th>
+            <th class="help">
+              <div class="yay">Disagree</div>
+              <input type="radio" name="q5" value="1">
+              <input type="radio" name="q5" value="2">
+              <input type="radio" name="q5" value="3" checked="">
+              <input type="radio" name="q5" value="4">
+              <input type="radio" name="q5" value="5">
+              <div class="yay">Agree</div>
+
+            </th>
+          </tr>
+        </table>
+        <div class="textarea">
+          <p class="bottomText">Additional comments about the event</p>
+          <textarea class="textstyle" name="comments" rows="10" cols="100" placeholder="Additional Feedback"></textarea>
+      </div>
+      <div class="button">
+        <input id="buttonStyle" type="submit" name="submit" value="Submit">
+      </div>
+      </form>
+    </body>
+</html>
