@@ -1,0 +1,143 @@
+
+@media screen and (min-width: 360px) and (max-width: 640px) {
+  body {
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f0602e;
+  }
+  a {
+    color: #00B7FF;
+  }
+  .form{
+    margin-top: 10vh;
+    border-radius: .4em;
+    background-color: #f0602e;
+    width: 100%;
+  }
+  table, th, td{
+    border: 2px solid white;
+    border-collapse: collapse;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: .5px;
+    font-size: .2em;
+  }
+  th,td{
+    padding: 1vh;
+    text-align: left;
+  }
+  .help{
+    width:50vw;
+    height: 10vh;
+  }
+  .yay{
+    color:white;
+    display: inline-block;
+  }
+
+  p{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 1.2em;
+  }
+  .companyName{
+    height: 15vh;
+    width: 30vw;
+    margin-top: 5vh;
+    display: inline-block;
+    text-align: center;
+    margin-left: 25vw;
+  }
+  .compstyle{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 1em;
+  }
+  .textbox{
+    height: 3vh;
+    width: 22vw;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .1em;
+  }
+
+  .textarea{
+    margin-top: 10vh;
+    text-align: center;
+  }
+  .textstyle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .5em;
+    width: 100%;
+  }
+  .bottomText{
+    font-family: 'Montserrat', sans-serif;
+    font-size: .8em;
+  }
+  #buttonStyle{
+    margin-top: 8vh;
+    font-family: 'Montserrat', sans-serif;
+    color: #ff5f00;
+    background-color: white;
+    width: 20vw;
+    height: 5vh;
+    font-size: .4em;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  #buttonStyle:hover{
+      background-color: #4CAF50;
+      color: white;
+  }
+
+  .title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3em;
+    color: white;
+  }
+  .spacing{
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: .1em;
+    display: inline-block;
+  }
+
+  .mainlogo{
+    background-image: url('../images/vangst1.jpg');
+    height: 20vh;
+    width: 50vw;
+    background-size: contain;
+    margin: auto;
+  }
+
+  .background{
+    background-color: #00B7FF;
+
+  }
+
+  .slogan{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-top: 10vh;
+    font-size: .7em;
+    text-align: center;
+    letter-spacing: .5px;
+  }
+
+  .button{
+    text-align: center;
+  }
+  .thankyou{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 2em;
+  }
+  #image3{
+    height: 30vh;
+    position: absolute;
+    width: 88%;
+
+    }
+  }
