@@ -27,13 +27,13 @@ th,td{
   padding: 1vh;
   text-align: left;
 }
-.help{
-  width:50vw;
-  height: 10vh;
-}
+
+
 .yay{
   color:white;
-  display: inline-block;
+}
+.location{
+  margin-left: 12vw;
 }
 
 p{

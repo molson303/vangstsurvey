@@ -30,10 +30,12 @@
     height: 10vh;
   }
   .yay{
-    color:white;
-    display: inline-block;
+    color: white;
+    display: inline;
   }
-
+.location{
+  margin-left: 12vw;
+}
   p{
   font-family: 'Montserrat', sans-serif;
   color: white;
