@@ -8,11 +8,11 @@ router.get('/', function(req, res, next) {
 
 router.post('/index', function(req, res, next){
   Comments.create(req.body).then(function(){
-  res.redirect("/index/exit")
+  res.redirect("/exit")
   })
 }),
 
-router.get('/index/exit', function(req, res, next){
+router.get('/exit', function(req, res, next){
   res.render('exit')
 })
 
