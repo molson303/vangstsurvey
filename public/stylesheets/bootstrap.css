@@ -1,7 +1,8 @@
 .btn-location{
   float: left;
-
 }
+
+
 
 .header-text{
   color:#fff;
@@ -19,6 +20,7 @@ html {
 }
 body {
   margin: 0;
+
 }
 article,
 aside,
@@ -491,16 +493,20 @@ h6,
 }
 p {
   margin: 0 0 10px;
+
 }
 .lead {
+  color: black;
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: 300;
   line-height: 1.4;
+
 }
 @media (min-width: 768px) {
   .lead {
     font-size: 21px;
+    color: #fff;
   }
 }
 small,
